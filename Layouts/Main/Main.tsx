@@ -9,13 +9,12 @@ export function Main() {
   return (
     <View style={{ paddingTop:insets.top , paddingBottom:insets.bottom}}>
 
-      <View style={{ backgroundColor: '#F5EEDC', flex: 1, flexDirection: 'row', gap: 5,  }}>
+      <View style={{ backgroundColor: '#F5EEDC', flex: 1, height: 100, gap: 5,  }}>
+        <View style={{ backgroundColor: '#F90EDC', flex: 1, flexDirection: 'row', gap: 5,  }}></View>
         <View style={{backgroundColor: '#D56976', justifyContent: 'center', alignItems:'flex-start', width: 60, height: 60, borderRadius: 100}}/>
-
           <Text style={{ color: '#1E1E1E', fontSize: 50, fontWeight: 600  }}>Nupy</Text>
-
-      
       </View>
+       
     </View>
   );
 }
