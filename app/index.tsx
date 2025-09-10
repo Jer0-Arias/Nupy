@@ -1,14 +1,14 @@
-   import { Main } from '@/Layouts/Main/Main';
+import { Main } from '@/Layouts/Main';
 import React from 'react';
-    import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   return (
     <SafeAreaProvider>
-      
-      
+
+
       <Main />
     </SafeAreaProvider>
   );
@@ -31,5 +31,5 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
-  
+
 });
